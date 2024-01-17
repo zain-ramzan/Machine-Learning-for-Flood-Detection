@@ -3,7 +3,8 @@ This repository is for a research project focused on improving urban flood detec
 
 The repository provides code for running three different approaches for identifying floods from DigitalGlobe's WorldView-2 imagery. The three approaches include: thresholding spectral indices, applying supervised machine learning methods and applying unsupervised machine learning methods. Each of the three approaches can be found in the following notebooks:
 
-Thresholding spectral indices: final_calculating_spectral_indices_koumassi.ipynb and final_calculating_spectral_indices_southeast.ipynb
+* Thresholding spectral indices: final_calculating_spectral_indices_koumassi.ipynb and 
+* final_calculating_spectral_indices_southeast.ipynb
 Supervised machine learning: final_supervised_ML_SVM_random_forest_combined.ipynb
 Unsupervised machine learning: final_unsupervised_ML_kmeans_GMM_koumassi.ipynb and final_unsupervised_ML_kmeans_GMM_southeast.ipynb
 Note that the machine learning notebooks rely on inputs from final_calculating_water_shadow_indices.ipynb
